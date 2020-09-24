@@ -4,8 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <h1>Hangman!</h1>
+    <h3>Here is your word:<span> _ _ _ _</span></h3>
+    <div class="matchingLetters"></div>
+    <div class="hangman">
+      <label>Enter your guess below</label>
+      <input id="userInput" type="text" placeholder=" *Enter letter here" />
+      <button class="submitAnswer" type="submit">submit</button>
+    </div>
+    <div class="wrongAnswers">
+      <h2>Wrong guesses:</h2>
+      <ul class="wrongLetters"></ul>
+    </div>
+    <script src="./game.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

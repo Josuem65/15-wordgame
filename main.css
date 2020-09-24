@@ -2,4 +2,45 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.matchingLetters {
+  border: 1px solid black;
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hangman {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(113, 25, 25);
+  font-size: ;
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+input {
+  display: block;
+  width: 150px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+label {
+  display: block;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
 }
